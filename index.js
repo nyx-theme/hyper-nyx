@@ -12,34 +12,39 @@ const turquoise = '#14F1D9'
 const gray = '#CCCCCC'
 const brightBlack = '#999999'
 const brightWhite = '#ffffff'
+const purple = '#7B42F6'
 
 exports.decorateConfig = config => {
-  return Object.assign({}, config, {
-    backgroundColor,
-    foregroundColor,
-    borderColor: black,
-    cursorColor: brightBlack,
-    colors: {
-      black,
-      red,
-      green,
-      yellow,
-      blue,
-      pink,
-      turquoise,
-      gray,
+    return Object.assign({}, config, {
+        fontSize: 14,
+        backgroundColor,
+        foregroundColor,
+        borderColor: black,
+        cursorColor: blue,
+        selectionColor: purple,
+        colors: {
+            black,
+            red,
+            green,
+            yellow,
+            blue,
+            pink,
+            turquoise,
+            gray,
+            purple,
 
-      // bright
-      brightBlack,
-      red,
-      green,
-      yellow,
-      blue,
-      pink,
-      turquoise,
-      brightWhite
-    },
-    css: `
+            // bright
+            brightBlack,
+            red,
+            green,
+            yellow,
+            blue,
+            pink,
+            turquoise,
+            brightWhite,
+            purple
+        },
+        css: `
         ${config.css || ''}
             .tabs_list .tab_tab.tab_active .tab_text  {
                 background: ${backgroundColor};
@@ -48,5 +53,5 @@ exports.decorateConfig = config => {
                 border-color: rgb(68, 71, 90);
             }
         `
-  })
+    })
 }
