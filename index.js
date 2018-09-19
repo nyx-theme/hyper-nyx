@@ -16,12 +16,14 @@ const purple = "#7B42F6";
 
 exports.decorateConfig = config => {
     return Object.assign({}, config, {
+        fontFamily:
+            '"SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace',
         fontSize: 14,
         backgroundColor,
         foregroundColor,
         borderColor: black,
         cursorColor: blue,
-        selectionColor: purple,
+        selectionColor: foregroundColor,
         colors: {
             black,
             red,
