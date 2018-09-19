@@ -23,7 +23,6 @@ exports.decorateConfig = config => {
         foregroundColor,
         borderColor: black,
         cursorColor: blue,
-        selectionColor: foregroundColor,
         colors: {
             black,
             red,
