@@ -1,0 +1,7 @@
+.tabs_list .tab_tab.tab_active .tab_text {
+  background: #282a36;
+}
+
+.tab_active:before {
+  border-color: rgb(68, 71, 90);
+}
