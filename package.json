@@ -1,6 +1,6 @@
 {
   "name": "hyper-nyx",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "A dark theme for Hyper",
   "main": "index.js",
   "license": "MIT",
