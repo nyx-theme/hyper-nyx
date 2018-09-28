@@ -1,21 +1,67 @@
 {
-    "name": "hyper-nyx",
-    "version": "0.0.4",
-    "description": "A dark theme for Hyper",
-    "main": "index.js",
-    "license": "MIT",
-    "author": {
-        "name": "ulyso",
-        "email": "i@ulyso.me",
-        "url": "https://ulyso.me"
-    },
-    "files": [
-        "index.js"
-    ],
-    "keywords": [
-        "hyper",
-        "hyper-theme",
-        "theme",
-        "UI"
+  "name": "hyper-nyx",
+  "version": "0.0.4",
+  "description": "A dark theme for Hyper",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "ulyso",
+    "email": "i@ulyso.me",
+    "url": "https://ulyso.me"
+  },
+  "files": [
+    "index.js",
+    "styles.css"
+  ],
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": "nyx-theme/hyper-nyx",
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "theme",
+    "UI",
+    "nyx"
+  ],
+  "devDependencies": {
+    "husky": "^1.0.1",
+    "xo": "^0.23.0"
+  },
+  "plugin": {
+    "title": "Hyper Nyx",
+    "caption": "A dark theme for Hyper",
+    "preview": "https://github.com/nyx-theme/hyper-nyx/blob/master/screenshot.png",
+    "colors": [
+      "#F0F3F5",
+      "#282A36",
+      "#44475a",
+      "#FF3B30",
+      "#4CD964",
+      "#F8E71C",
+      "#3672F8",
+      "#E1467C",
+      "#14F1D9",
+      "#CCCCCC",
+      "#999999",
+      "#ffffff",
+      "#7B42F6"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
+  "xo": {
+    "esnext": true,
+    "prettier": {
+      "semi": false,
+      "singleQuote": true,
+      "tabWidth": 2
+    },
+    "space": true,
+    "semicolon": false
+  }
 }
