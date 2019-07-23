@@ -1,13 +1,13 @@
 {
-  "name": "hyper-nyx",
-  "version": "0.0.6",
+  "name": "hyper-ombre",
+  "version": "0.1.0",
   "description": "A dark theme for Hyper",
   "main": "index.js",
   "license": "MIT",
   "author": {
-    "name": "ulyso",
-    "email": "i@ulyso.me",
-    "url": "https://ulyso.me"
+    "name": "cora1u",
+    "email": "cora1u@outlook.com",
+    "url": "https://ombre.dev"
   },
   "files": [
     "index.js",
@@ -16,22 +16,22 @@
   "scripts": {
     "test": "xo"
   },
-  "repository": "nyx-theme/hyper-nyx",
+  "repository": "OmbreDev/hyper-ombre",
   "keywords": [
     "hyper",
     "hyper-theme",
     "theme",
     "UI",
-    "nyx"
+    "ombre"
   ],
   "devDependencies": {
-    "husky": "^1.0.1",
-    "xo": "^0.23.0"
+    "husky": "^3.0.1",
+    "xo": "^0.24.0"
   },
   "plugin": {
-    "title": "Hyper Nyx",
+    "title": "Hyper Ombre",
     "caption": "A dark theme for Hyper",
-    "preview": "https://github.com/nyx-theme/hyper-nyx/blob/master/screenshot.png",
+    "preview": "https://github.com/OmbreDev/hyper-ombre/blob/ad395f0f9ed9e1d70fc0b78bf73f6d7d5d95a06c/screenshot.png?raw=true",
     "colors": [
       "#F0F3F5",
       "#282A36",

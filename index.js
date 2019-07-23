@@ -1,24 +1,24 @@
 'use strict'
 
-// Hyper-nyx theme v0.0.6
+// Hyper-nyx theme v0.1.0
 const fs = require('fs')
 const path = require('path')
 
 const styles = fs.readFileSync(path.join(__dirname, 'styles.css'), 'utf-8')
 
-const foregroundColor = '#F0F3F5'
-const backgroundColor = '#282A36'
-const black = '#44475a'
-const red = '#FF3B30'
-const green = '#4CD964'
-const yellow = '#F8E71C'
-const blue = '#3672F8'
-const pink = '#E1467C'
-const turquoise = '#14F1D9'
-const gray = '#CCCCCC'
-const brightBlack = '#999999'
+const foregroundColor = '#F6F7F7'
+const backgroundColor = '#161A37'
+const black = '#0A2463'
+const red = '#F24024'
+const green = '#60F1C8'
+const yellow = '#FFC400'
+const blue = '#0085E3'
+const pink = '#FF375F'
+const turquoise = '#00A89D'
+const gray = '#E5E5E5'
+const brightBlack = '#0A2463'
 const brightWhite = '#ffffff'
-const purple = '#7B42F6'
+const purple = '#825DDE'
 
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
