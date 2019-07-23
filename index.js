@@ -1,6 +1,6 @@
 'use strict'
 
-// Hyper-nyx theme v0.1.0
+// Hyper-nyx theme v0.1.1
 const fs = require('fs')
 const path = require('path')
 
@@ -16,7 +16,7 @@ const blue = '#0085E3'
 const pink = '#FF375F'
 const turquoise = '#00A89D'
 const gray = '#E5E5E5'
-const brightBlack = '#0A2463'
+const brightBlack = '#b5bdd0'
 const brightWhite = '#ffffff'
 const purple = '#825DDE'
 
