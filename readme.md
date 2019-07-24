@@ -14,4 +14,4 @@ hyper install hyper-ombre
 
 ## Preview
 
-![](./screenshot.png)
+![](./assets/screenshot.png)

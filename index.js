@@ -7,7 +7,7 @@ const path = require('path')
 const styles = fs.readFileSync(path.join(__dirname, 'styles.css'), 'utf-8')
 
 const foregroundColor = '#F6F7F7'
-const backgroundColor = '#161A37'
+const backgroundColor = 'rgba(22, 25, 55, 0.95)'
 const black = '#0A2463'
 const red = '#F24024'
 const green = '#60F1C8'
